@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadex Rocks | Luxury Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">JADEX ROCKS</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#new">New Arrivals</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#bag">Bag (0)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="subtitle">THE MONOLITH COLLECTION</p>
+      <h1>Elegance Carved in Stone</h1>
+      <p class="description">Architectural silhouettes, liquid silks, and bold statement pieces crafted for the modern icon.</p>
+      <a href="#collections" class="btn">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section id="collections" class="products-section">
+    <div class="section-header">
+      <h2>Signature Pieces</h2>
+      <p>Limited-edition essentials from the Jadex Rocks Atelier</p>
+    </div>
+
+    <div class="product-grid">
+      <!-- Product Card 1 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="midnight_dress.jpg" alt="Jadex Midnight Silk Slip Dress">
+        </div>
+        <div class="product-info">
+          <h3>Jadex Midnight Silk Slip Dress</h3>
+          <p class="price">$1,450</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 2 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="cashmere_coat.jpg" alt="Sovereign Cashmere Overcoat">
+        </div>
+        <div class="product-info">
+          <h3>Sovereign Cashmere Overcoat</h3>
+          <p class="price">$2,100</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 3 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="handle_bag.jpg" alt="Quartz Mini Top-Handle Bag">
+        </div>
+        <div class="product-info">
+          <h3>Quartz Mini Top-Handle Bag</h3>
+          <p class="price">$890</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 4 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="crystal_shoes.jpg" alt="Valkyrie Crystal Stilettos">
+        </div>
+        <div class="product-info">
+          <h3>Valkyrie Crystal Stilettos</h3>
+          <p class="price">$950</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 5 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="classic_bag.jpg" alt="3 In 1 Ladies Classic Handbag Small Bag Card Case Set Women Top-handle Bags Pouch Card Bag Set">
+        </div>
+        <div class="product-info">
+          <h3>3 In 1 Ladies Classic Handbag Small Bag Card Case Set Women Top-handle Bags Pouch Card Bag Set</h3>
+          <p class="price">$350</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 6 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="design_bag.jpg" alt="Dior Designer Top Handle Bag">
+        </div>
+        <div class="product-info">
+          <h3>Dior Designer Top Handle Bag</h3>
+          <p class="price">$720</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 7 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="night_gown.jpg" alt="Jadex Rocks Night Gown Set">
+        </div>
+        <div class="product-info">
+          <h3>Jadex Rocks Night Gown Set</h3>
+          <p class="price">$420</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 8 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="three_quarter.jpg" alt="Ladies Three Quarter Trousers">
+        </div>
+        <div class="product-info">
+          <h3>Ladies Three Quarter Trousers</h3>
+          <p class="price">$950</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+
+      <!-- Product Card 9 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="women_suit.jpg" alt="Female Formal Suit Set">
+        </div>
+        <div class="product-info">
+          <h3>Female Formal Suit Set</h3>
+          <p class="price">$950</p>
+          <button class="add-btn">Add to Bag</button>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <!-- Brand Story Banner -->
+  <section id="about" class="brand-story">
+    <div class="story-content">
+      <h2>The House of Jadex Rocks</h2>
+      <p>Born from a passion for sculptural tailoring and effortless glamour, every piece is produced in small batches using ethically sourced fabrics.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 JADEX ROCKS. All Rights Reserved.</p>
+  </footer>
+  <!--Bag Overlay-->
+    <div class="bag-overlay" id="bagOverlay"></div>
+  <aside class="bag-drawer" id="bagDrawer">
+    <div class="bag-header">
+      <h3>YOUR BAG</h3>
+      <button class="close-bag" id="closeBag">&times;</button>
+    </div>
+    <div class="bag-items" id="bagItems">
+      <p style="color:#7A7A7A; text-align:center; margin-top:2rem;">Your Jadex Rocks bag is empty.</p>
+    </div>
+    <div class="bag-footer">
+      <div class="bag-total-row">
+        <span>Subtotal</span>
+        <span id="bagTotal">$0</span>
+      </div>
+      <button class="checkout-btn" onclick="alert('Thank you for shopping at JADEX ROCKS!')">Proceed to Checkout</button>
+    </div>
+  </aside>
+<script src="script.js"></script>
+</body>
+</html>
